@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Trump Brand Index data repository
 
-You can use the [editor on GitHub](https://github.com/FactSquared/factbase-trump-brand-raw-data/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+You can find the CSV of just the raw data, or the full Excel spreadsheet here. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FactSquared/factbase-trump-brand-raw-data/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The raw data in the CSV should be self explanatory, but just in case:
+* ID. The internal ID of the record
+* In Analysis. Whether or not the data was used in calculating the Trump Brand Index
+* Date. Date of transaction
+* Address. Street Address
+* Unit. Condo unit number
+* City
+* State
+* ZIP
+* County
+* Sale Price. The sale price as reported in the record (see source)
+* Sq Ft. Square footage of the unit. Note this was mined from a number of sites. At least two sites need to list the same square footage for it to be validated.
+* Price / Sq Ft. Simple math: sale price / sq. ft.
+* Trump Property. Is this a Trump property and if so, which one?
+* Source. The origin of the sales record.
+* Rejection Note. A translation of Factba.se's internal code if the unit was not used in the analysis.
